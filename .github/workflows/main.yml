@@ -21,8 +21,11 @@ jobs:
        role-session-name: MySessionName
        
 
-    
+    - name: Install AWS CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install awscli -y
 
     - name: Upload file to S3  
       run: |
-        aws s3 sync ./cloud-resume s3://karim-chihani --delete
+        aws s3 sync cloud-resume s3://karim-chihani --delete
