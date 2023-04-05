@@ -27,4 +27,4 @@ jobs:
 
     - name: Upload file to S3  
       run: |
-        aws s3 sync cloud-resume s3://karim-chihani --delete
+        aws s3 sync ./cloud-resume s3://karim-chihani --delete
