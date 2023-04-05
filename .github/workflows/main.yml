@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: configureawscredentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v2
       with:
        role-to-assume: arn:aws:iam::892900464479:role/github-action-role
        role-session-name: samplerolesession
