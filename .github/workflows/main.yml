@@ -16,14 +16,12 @@ jobs:
     - name: configureawscredentials
       uses: aws-actions/configure-aws-credentials@v2
       with:
+       aws-region: us-east-1
        role-to-assume: arn:aws:iam::892900464479:role/github-action-role
        role-session-name: MySessionName
-       aws-region: us-east-1
+       
 
-    - name: Install AWS CLI
-      run: |
-        sudo apt-get update
-        sudo apt-get install awscli -y
+    
 
     - name: Upload file to S3  
       run: |
