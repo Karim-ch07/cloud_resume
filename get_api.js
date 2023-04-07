@@ -1,4 +1,4 @@
-const countUrl = 'https://dm7lnllf0i.execute-api.us-east-1.amazonaws.com/prod/visitorcounter'
+const countUrl = 'https://u38uaetxc0.execute-api.us-east-1.amazonaws.com/prod/visitorcounter'
 const countElement = document.getElementById('count');
 
 updateVisitCount();
