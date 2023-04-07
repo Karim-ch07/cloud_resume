@@ -52,3 +52,13 @@ box-shadow: 0px 0px 20px -9px rgba(0,0,0,0.75);
     margin: 100px;
     background-color: white;
 }
+
+}
+.counter{
+  font-size: 14px;
+  color: #545454;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  padding-bottom: 3em;
+}
