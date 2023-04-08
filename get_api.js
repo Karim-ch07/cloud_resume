@@ -1,7 +1,6 @@
 const countUrl = 'https://wwatps6x63.execute-api.us-east-1.amazonaws.com/prod'
 const countElement = document.getElementById('count');
 
-updateVisitCount();
 
 function updateVisitCount() {
     fetch(countUrl,
@@ -24,3 +23,4 @@ function updateVisitCount() {
 }
 
 
+updateVisitCount();
