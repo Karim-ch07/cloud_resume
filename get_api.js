@@ -6,10 +6,10 @@ updateVisitCount();
 function updateVisitCount() {
     fetch(countUrl,
     {
-        method: 'GET',
+        //method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            //'Access-Control-Allow-Origin': 'http://karim-chihani.s3-website-us-east-1.amazonaws.com'
+            'Access-Control-Allow-Origin': 'karim-chihani.s3-website-us-east-1.amazonaws.com'
                 }
     }
 
