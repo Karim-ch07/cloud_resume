@@ -3,18 +3,7 @@ const countElement = document.getElementById('count');
 
 
 function updateVisitCount() {
-    fetch(countUrl,
-    {
-        //method: 'GET',
-        headers: {
-
-            "Access-Control-Allow-Headers": "Content-Type,Authorization,access-control-allow-origin",
-            "Access-Control-Allow-Origin": "*",
-            //"Access-Control-Allow-Methods": "GET"
-                }
-    }
-
-    )
+    fetch(countUrl)
         .then(res => res.json())
         .then(res => {
         console.log(res)
