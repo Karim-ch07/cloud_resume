@@ -9,7 +9,7 @@ function updateVisitCount() {
         //method: 'GET',
         headers: {
 
-            "Access-Control-Allow-Headers" : "application/json",
+            "Access-Control-Allow-Headers": "application/json",
             "Access-Control-Allow-Origin": "http://karim-chihani.s3-website-us-east-1.amazonaws.com",
             "Access-Control-Allow-Methods": "GET"
                 }
