@@ -9,9 +9,9 @@ function updateVisitCount() {
         //method: 'GET',
         headers: {
 
-            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Headers": "Content-Type,Authorization,access-control-allow-origin",
             "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "GET"
+            //"Access-Control-Allow-Methods": "GET"
                 }
     }
 
