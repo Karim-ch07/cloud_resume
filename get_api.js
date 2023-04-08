@@ -1,4 +1,4 @@
-const countUrl = 'https://wwatps6x63.execute-api.us-east-1.amazonaws.com/prod'
+const countUrl = 'https://wwatps6x63.execute-api.us-east-1.amazonaws.com/prod/cv_counter'
 const countElement = document.getElementById('count');
 
 updateVisitCount();
