@@ -8,7 +8,7 @@ function updateVisitCount() {
         .then(res => res.json())
         .then(res => {
         console.log(res)
-        countElement.innerHTML = res.prevViewCount;
+        countElement.innerHTML = res.body;
     });
 }
 
