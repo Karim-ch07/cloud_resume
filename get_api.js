@@ -7,6 +7,7 @@ function updateVisitCount() {
     fetch(countUrl)
         .then(res => res.json())
         .then(res => {
+        console.log(res)
         countElement.innerHTML = res.prevViewCount;
     });
 }
