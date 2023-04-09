@@ -15,8 +15,17 @@ position: absolute;
     padding: 50px;
     margin: 100px;
      background: white;
+     text-align: center;
    }
-
+}
+#sidepanel-section-title{
+  line-height: 30px;
+}
+#social-thumbnail{
+    position: relative;
+    width: 40px;
+    border-radius: 20px;
+}
    #image{
     position: relative;
     overflow: hidden;
